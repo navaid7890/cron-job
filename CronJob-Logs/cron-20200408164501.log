@@ -1,0 +1,66 @@
+
+
+Total RAM in GB
+
+              total        used        free      shared  buff/cache   available
+Mem:             31           3          26           0           1          27
+Swap:             0           0           0
+
+
+Total CPUs available 
+
+8
+
+
+Total  storage space available for all mount point 
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev             17G     0   17G   0% /dev
+tmpfs           3.4G  865k  3.4G   1% /run
+/dev/nvme0n1p1   63G  3.5G   59G   6% /
+tmpfs            17G     0   17G   0% /dev/shm
+tmpfs           5.3M     0  5.3M   0% /run/lock
+tmpfs            17G     0   17G   0% /sys/fs/cgroup
+/dev/loop0       94M   94M     0 100% /snap/core/8268
+/dev/loop2       19M   19M     0 100% /snap/amazon-ssm-agent/1480
+/dev/loop1       99M   99M     0 100% /snap/core/8935
+/dev/loop3       19M   19M     0 100% /snap/amazon-ssm-agent/1566
+tmpfs           3.4G     0  3.4G   0% /run/user/1002
+
+
+Top 5 processes for root user (JENKINS)
+
+ 8466 ?        00:00:00 head
+ 8465 ?        00:00:00 sort
+ 8464 ?        00:00:00 ps
+ 8460 ?        00:00:00 sh
+ 8458 ?        00:00:00 sh
+
+
+Ports exposed and the associated processes
+
+(Not all processes could be identified, non-owned process info
+ will not be shown, you would have to be root to see it all.)
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      -                   
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -                   
+tcp6       0      0 :::22                   :::*                    LISTEN      -                   
+tcp6       0      0 :::8080                 :::*                    LISTEN      -                   
+tcp6       0      0 :::50000                :::*                    LISTEN      -                   
+udp        0      0 127.0.0.53:53           0.0.0.0:*                           -                   
+udp        0      0 172.31.48.174:68        0.0.0.0:*                           -                   
+
+
+Files with their size and sorted
+
+4.0K	CronTasks.sh
+12K	jenkins-work
+964K	CronJob-Logs
+
+
+Folders with their size and sorted
+
+drwxrwxr-x 2 jenkins jenkins  16K Apr  8 16:45 /home/jenkins/CronJob-Logs
+-rwxrwxr-x 1 jenkins jenkins  807 Apr  7 20:24 /home/jenkins/CronTasks.sh
+drwxrwxr-x 2 jenkins jenkins 4.0K Apr  7 22:20 /home/jenkins/jenkins-work
